@@ -52,6 +52,7 @@ nav ul li{
     background: url('bg.jpg');
     background-size: cover;
     display: flex;
+    border-radius: 8px;
 
 }
 
@@ -70,9 +71,8 @@ nav ul li{
 .container .songLists .songItem{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
- 
-    margin: 8px 15px;
+    justify-content: space-between;
+    margin: 6px 15px;
     background-color: white;
     color: black;
     border-radius: 17px;
@@ -105,6 +105,10 @@ nav ul li{
 .icons i{
     color: white;
     padding: 0 7px;
+}
+.bottom .songNameGif{
+    position: relative;
+    margin-top: 4px;
 }
 .bottom img{
     width: 25px;
